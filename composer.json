@@ -1,0 +1,32 @@
+{
+    "name": "henset11/onesender-laravel",
+    "description": "OneSender integration for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Henset11\\OneSenderLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hendra",
+            "email": "pthendrasetiawan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Henset11\\OneSenderLaravel\\Providers\\OneSenderServiceProvider"
+            ],
+            "aliases": {
+                "OneSender": "Henset11\\OneSenderLaravel\\Facades\\OneSender"
+            }
+        }
+    }
+}
