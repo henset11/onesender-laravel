@@ -1,9 +1,9 @@
 <?php
 
-namespace Henset11\OneSender\Providers;
+namespace Henset11\OneSenderLaravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Henset11\OneSender\OneSenderService;
+use Henset11\OneSenderLaravel\OneSenderService;
 
 class OneSenderServiceProvider extends ServiceProvider
 {

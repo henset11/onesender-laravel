@@ -1,6 +1,6 @@
 <?php
 
-namespace Henset11\OneSender;
+namespace Henset11\OneSenderLaravel;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
