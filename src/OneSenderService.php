@@ -21,7 +21,7 @@ class OneSenderService
         $this->senderUrl = config('onesender.base_api_url') . '/api/v1/messages';
     }
 
-    public function sendtext($phone, $message, $recipientType)
+    public function text($phone, $message, $recipientType)
     {
         return $this->send([
             'recipient_type' => $recipientType,
